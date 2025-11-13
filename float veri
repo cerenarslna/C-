@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace floatveri;
+
+internal class floatveri
+{
+    static void Main(string[] args)
+    {
+        //Float : ondalıklı sayıları içeriside bulundurur.
+        float sayi = 10.500f;
+        //sayi = 1; float içerisinde tam sayıları da barındırabilir.
+        Console.WriteLine(sayi);
+        Console.ReadLine();
+    }
+}
