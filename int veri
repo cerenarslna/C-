@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace intveri;
+
+internal class intveri
+{
+    static void Main(string[] args)
+    {
+        //Int icerisainde tam sayıları barındırır.(3,0,99,101)
+        int sayi = 1;
+        sayi = 2;
+        sayi = sayi + 1;
+        sayi = sayi - 1;
+        sayi = sayi + 3;
+        
+        //sayi = A; HATA
+        //sayi = a; HATA 
+        //sayi = "A"; HATA
+        //sayi = 3.5; HATA
+        
+        Console.WriteLine(sayi);
+        Console.ReadLine();
+
+    }
+}
