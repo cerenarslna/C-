@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace stringveri;
+
+internal class stringveri
+{
+    static void Main(string[] args)
+    {
+        //genelde metinsel coklu karakter saklamak icin kullanılır. tek karakter de saklanabilir.
+        string karakter = "a";
+        karakter = "ab";
+        karakter = "abcd";
+        karakter = "genelde metinsel coklu karakter saklamak icin kullanılır. tek karakter de saklanabilir.";
+        karakter = "#$½§§{[§½$#"; //bunlar da stirng olabilir.
+        Console.WriteLine(karakter);
+        Console.ReadLine();
+    }
+}
