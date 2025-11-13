@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace varveri;
+
+internal class varveri
+{
+    static void Main(string[] args)
+    {
+        // cok yer kaplıyor. gerekmedikce kullanılmaz. tüm değişkenlerin atasıdır. herhangi bir veri türünü içerisinde
+        // saklayabilir (int,string,double...)
+        //Başladığı veri türü ile devam eder.
+        var degisken = "abc";
+        degisken = "bc";
+        Console.WriteLine(degisken);
+        Console.ReadLine();
+    }
+}
