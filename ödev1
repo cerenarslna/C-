@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NAMESPACE;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        string ad;
+        string soyad;
+        int yas;
+        
+       Console.WriteLine("Adınızı giriniz:");
+       ad = Console.ReadLine();
+       
+       Console.WriteLine("Soyadınızı giriniz:");
+       soyad = Console.ReadLine();
+       
+       Console.Write("yaşınızı giriniz: ");
+       yas = Convert.ToInt32(Console.ReadLine());
+       
+       Console.WriteLine("hoşgeldiniz "+ ad + " " +  soyad + " "+ yas );
+       Console.ReadLine();
+    }
+}
