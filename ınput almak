@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ınput;
+
+internal class Input
+{
+    static void Main(string[] args)
+    {
+        //console.readline() kullanıcının girdiği değeri alabilirz. DİKKAT : bu bize string verir.
+      //  Console.Write("Bir şeyler girin : ");
+        //string gelenDeger = Console.ReadLine();
+        
+        //Console.WriteLine("girdiğiniz değer " + gelenDeger);
+        //Console.ReadLine();
+        
+        
+        
+        Console.Write("Sayı girin :");
+        int gelenSayi = Convert.ToInt32(Console.ReadLine()); //verilen sonuc string olacagı için convert ile int yapıyoz.
+        Console.WriteLine(gelenSayi + " " + gelenSayi.GetType());
+        Console.ReadLine();
+    }
+}
