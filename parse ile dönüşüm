@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace parse;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        //parse : tür dönüşümü için kullanılır.
+        string sayi = "5";
+        Console.WriteLine(sayi + "" + sayi.GetType());
+        Console.ReadLine();
+    }
+}
