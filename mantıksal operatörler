@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace mantıksal_op;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        int sayi = 5;
+
+        //bool kontrol = sayi > 2 && sayi > 7;  // sayi > 7 yanlıs oldugu icin False verecek
+        
+       // bool kontrol = sayi <2 || sayi > 7; // 7 için false vermesi gerek ama veya oludugu için işlemde true var ise true baz alınır Sonuc True .
+
+        bool kontrol = !(sayi > 2); // sayı 2den büyük parantez içi doğru ama ! tersini almak oldugu için sonuç False cıkar.
+        
+        Console.WriteLine(kontrol);
+        Console.Read();
+
+
+    }
+}
