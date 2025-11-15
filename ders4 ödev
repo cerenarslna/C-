@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Odev;
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Kullanıcıdan kullanıcı adı ve şifre alın. Eğer kullanıcı adı "admin" ve şifrede "123" ise
+            // Ekrana true/false yazdırın.
+
+            string kullaniciAdi;
+            string sifre;
+
+            Console.Write("Kullanıcı adı giriniz: ");
+            kullaniciAdi = Console.ReadLine();
+
+            Console.Write("Şifre giriniz: ");
+            sifre = Console.ReadLine();
+
+
+            bool kontrol = kullaniciAdi == "admin" && sifre == "123";
+
+            Console.Write("Bilgileriniz doğru mu? " + kontrol);
+
+            Console.Read();
+            
+        }
+    }
+}
