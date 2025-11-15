@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace karsilastirma_op;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        int sayi1 = 15;
+        int sayi2 = 16;
+        
+        bool sonuc = sayi1 == sayi2;
+        
+        sonuc = sayi1 != sayi2;  //eşit değil ise
+        
+        sonuc = sayi1 > sayi2;  //büyük ise
+        
+        sonuc = sayi1 < sayi2;  //küçük ise 
+        
+        sonuc = sayi1 >= sayi2;  //eşit ya da büyük ise 
+        
+        sonuc = sayi1 <= sayi2;  //eşit ya da küçük ise 
+        
+        Console.WriteLine(sonuc);
+        Console.Read();
+    }
+}
