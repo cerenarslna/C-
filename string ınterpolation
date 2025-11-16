@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _3_StringInterpolation
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string kurs = "C#";
+            string tarih = "2024";
+
+            Console.Write($"{tarih} Yılında {kurs} Öğreniyorum!");
+            Console.Write($"{tarih} Yılında {kurs} Öğreniyorum!");
+            Console.Read();
+        }
+    }
+}
