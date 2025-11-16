@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace StringBuilder
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string kurs = "C#";
+            string tarih = "2024";
+
+            StringBuilder builder = new StringBuilder(); // 2024 yılında c# öğrenmeye başladım!
+
+            builder.Append(kurs);
+            builder.Append(" ");
+            builder.Append(tarih);
+
+
+            Console.Write(builder);
+
+            Console.Read();
+
+        }
+    }
+}
