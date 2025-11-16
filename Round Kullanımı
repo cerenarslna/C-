@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NAMESPACE;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+       Console.WriteLine("  bir sayı giriniz : ");
+       double sayi = Convert.ToDouble(Console.ReadLine());
+       
+       double sonuc = Math.Round(sayi);
+       Console.WriteLine($"{sayi} sayısının yuvarlanmış hali  : {sonuc}");
+       Console.Read();
+    }
+}
