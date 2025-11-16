@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _2_StringFormatlama;
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string kurs = "C#";
+            string tarih = "2024";
+            // 2024 Yılında C# Öğrenmeye Başladım
+
+            // Console.Write(tarih + " Yılında " + kurs + " Öğrenmeye Başladım"); 
+
+            // Console.Write("{0} Yılında {1} Öğrenmeye Başladım", tarih, kurs);
+
+            string metin = String.Format("{0} Yılında {1} Öğrenmeye Başladım", tarih, kurs);
+
+            Console.WriteLine(metin);
+
+            Console.Read();
+        }
+    }
+}
