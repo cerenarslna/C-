@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NAMESPACE;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        int saat = 17;
+        string sonuc = (saat < 18) ? "iyi aksamlar" : "iyi günler";
+        Console.WriteLine(sonuc);
+        Console.Read();
+    }
+}
