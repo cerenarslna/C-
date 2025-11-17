@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IcIceIfKullanimi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Bir sayı girin: ");
+            int sayi1 = Convert.ToInt32(Console.ReadLine());
+
+            /*  
+             if (sayi1 > 5)
+              {
+                  if (sayi1 < 10)
+                  {
+                      Console.WriteLine($"{sayi1} sayısı 5-10 arasında tebrikler");
+                  }
+                  else
+                  {
+                      Console.WriteLine("Sayi 10dan kücük olmali");
+                  }
+              }
+              else
+              {
+                  Console.WriteLine("Sayi 5ten büyük olmali");
+              }
+            */
+
+            if ( (sayi1 > 5 && sayi1 < 10) || (sayi1 > 20 && sayi1 < 30) )
+            {
+                Console.WriteLine($"{sayi1} sayısı 5-10 arasında tebrikler");
+            }
+            else
+            {
+                Console.WriteLine("Girdiğiniz sayı 5 ile 10 arasında olmali!");
+            }
+
+
+            Console.Read();
+
+        }
+    }
+}
