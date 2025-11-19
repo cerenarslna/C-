@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NAMESPACE;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        // while (true)
+        // {
+        //     Console.WriteLine("seni seviyorum");
+        // }
+        //
+
+        int sayac = 1;
+        while (sayac <= 10)
+        {
+            Console.WriteLine(sayac + ". yazı");
+            sayac++; //tek tek arttırıyor 10 a kadar gitmesi ve durması için. Yoksa sonsuza kadar calısır
+        }
+        Console.Read();
+    }
+}
